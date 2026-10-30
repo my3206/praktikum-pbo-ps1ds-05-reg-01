@@ -1,0 +1,9 @@
+package com.fembi.guided.Abstract;
+
+public class Main {
+    public static void main(String[] args) {
+        SalariedEmployee salaried = new SalariedEmployee("Budi", 5000000);
+        System.out.println("Nama: " + salaried.getName());
+        System.out.println("Gaji: Rp" +  salaried.earnings());
+    }
+}
